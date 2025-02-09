@@ -152,9 +152,9 @@ if answer6 == 1:
            Light in one year travels a distance of approximately 9,460,000,000,000 km. This is because light travels
           at a speed of approximately 299,792 km per second. In one year, there are 31,536,000 seconds.
           Multiplying the speed of light by the number of seconds in a year gives us the distance traveled by light in one year.
-          
+
             """)
 else:
     print("incorrect")
 
-print(f"You scored {score}/4.")
+print(f"You scored {score}/6.")
