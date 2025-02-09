@@ -110,3 +110,51 @@ if answer4 == 3:
             """)
 else:
     print("incorrect")
+
+
+print("""
+      Question 5: How many galaxies are there in the obervable universe?
+      1. 100 million
+      2. 200 billion
+      3. 1 billion
+      4. 10 billion 
+      """)
+answer5 = int(input("Enter option number of the correct answer from the choices above: "))
+
+if answer5 == 2:
+    score += 1
+    print("correct! - 200 billion")
+    print("Explanation - ")
+    print("""
+           There are approximately 200 billion galaxies in the obervable universe. This estimate is based on 
+          observations made by telescopesand other astronomical instruments. The obervable universe refers to the
+          portion of the universe that we see from Earth, and it is constantly expanding as light from distant 
+          objects reaches us. The vast number of galaxies in the obervable universe shows the immense scale
+          and diversity of the cosmos.
+            """)
+else:
+    print("incorrect")
+
+
+
+print("""
+      Question 6: Light in one year approximately travels 9,460,000,000,000 km.
+      1. True
+      2. False
+      """)
+answer6 = int(input("Enter option number of the correct answer from the choices above: "))
+
+if answer6 == 1:
+    score += 1
+    print("correct! - True")
+    print("Explanation - ")
+    print("""
+           Light in one year travels a distance of approximately 9,460,000,000,000 km. This is because light travels
+          at a speed of approximately 299,792 km per second. In one year, there are 31,536,000 seconds.
+          Multiplying the speed of light by the number of seconds in a year gives us the distance traveled by light in one year.
+          
+            """)
+else:
+    print("incorrect")
+
+print(f"You scored {score}/4.")
