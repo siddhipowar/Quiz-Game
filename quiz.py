@@ -158,3 +158,4 @@ else:
     print("incorrect")
 
 print(f"You scored {score}/6.")
+print("Your score is: " + str((score / 6) * 100) + " %")
